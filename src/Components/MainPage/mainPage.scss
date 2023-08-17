@@ -1,0 +1,39 @@
+p {
+  color: black;
+}
+
+.main-page-wrapper {
+  display: flex;
+  background-color: #fff;
+  padding: 0;
+  width: 100vw;
+  height: 80.1vh;
+}
+.main-page-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("./Img/Image/mainPhoto.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  .main-page-baloon {
+    display: flex;
+    background-image: url("./Img/Image/ballonOne.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    justify-content: center;
+    width: 50%;
+    height: 30%;
+    margin: 15% 0 0 30%;
+    align-self: center;
+    p {
+      width: 80%;
+      height: 20%;
+      font-size: 15px;
+    }
+  }
+}
