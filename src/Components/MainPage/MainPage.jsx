@@ -7,7 +7,9 @@ export const MainPage = () => {
         <div className="main-page-baloon">
           <p>Zbudujmy razem świat jakiego potrzebujesz</p>
         </div>
-        <div className="main-page-surname"></div>
+        <div className="main-page-surname">
+          <p>Agata Hemmrling-Goc</p>
+        </div>
       </div>
     </div>
   );
