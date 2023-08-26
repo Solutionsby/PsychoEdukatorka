@@ -38,9 +38,18 @@
   }
   .main-page-surname {
     display: flex;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
     justify-content: start;
     align-items: start;
     margin: 0 0 15% 10%;
+    transition: 3s;
+    z-index: 3;
+    &.isOpen {
+      bottom: 88%;
+      left: 60%;
+    }
     p {
       margin: 0;
       font-size: 10px;

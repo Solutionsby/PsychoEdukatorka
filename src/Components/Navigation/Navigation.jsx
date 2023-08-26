@@ -1,24 +1,24 @@
-import { useState } from "react";
 import "./navigation.scss";
+import { toggleActive } from "../slicer/isActiveSlicer";
+import { useSelector, useDispatch } from "react-redux";
 
 export const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const isActive = useSelector((state) => state.active);
+  const dispatch = useDispatch();
 
-  const handleMenuToggle = () => {
-    setIsOpen(!isOpen);
-  };
-  console.log(isOpen);
   return (
     <div className="navigation-wrapper">
       <div className="navigation-logo">
         <a href="#"></a>
       </div>
-      <div className="navigation-menu" onClick={handleMenuToggle}>
+      <div className="navigation-menu" onClick={() => dispatch(toggleActive())}>
         <div className="menu-div"></div>
         <div className="menu-div"></div>
         <div className="menu-div"></div>
       </div>
-      <nav className={isOpen ? "active" : ""}></nav>
+      <nav className={isActive.active ? "active" : ""}>
+        <div className="navigation-menu-wrapper"></div>
+      </nav>
     </div>
   );
 };
