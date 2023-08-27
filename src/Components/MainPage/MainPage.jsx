@@ -1,9 +1,7 @@
 import "./mainPage.scss";
-import { useSelector } from "react-redux";
+import PropTypes from "prop-types";
 
-export const MainPage = () => {
-  const isActive = useSelector((state) => state.active);
-  console.log(isActive);
+export const MainPage = ({ isActive }) => {
   return (
     <div className="main-page-wrapper">
       <div className="main-page-photo">
@@ -12,7 +10,7 @@ export const MainPage = () => {
         </div>
         <div
           className={
-            isActive.active ? "main-page-surname isOpen" : "main-page-surname"
+            isActive ? "main-page-surname isOpen" : "main-page-surname"
           }
         >
           <p>Agata Hemmrling-Goc</p>
@@ -20,4 +18,7 @@ export const MainPage = () => {
       </div>
     </div>
   );
+};
+MainPage.propTypes = {
+  isActive: PropTypes.bool.isRequired,
 };
