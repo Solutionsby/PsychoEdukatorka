@@ -1,3 +1,5 @@
+@import "../../assets/fontsVariable";
+
 .navigation-wrapper {
   display: flex;
   position: fixed;
@@ -43,7 +45,9 @@
 }
 nav {
   display: flex;
-  background-color: red;
+  justify-content: center;
+  align-items: end;
+  background-color: #fff;
   position: fixed;
   top: 0;
   right: -1000px;
@@ -52,5 +56,35 @@ nav {
   transition: 1s;
   &.active {
     right: 0;
+    .navigation-menu-wrapper {
+      height: 95%;
+      width: 90%;
+      border: 1px solid #d9c2c4;
+    }
+  }
+  .navigation-menu-wrapper {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 100px;
+      padding-left: 0;
+      li {
+        margin-bottom: 100px;
+        a {
+          color: black;
+          text-decoration: none;
+          font-size: 24px;
+          font-family: $open-sans;
+          font-weight: 200;
+          text-transform: uppercase;
+
+          &:visited {
+            color: black;
+          }
+        }
+      }
+    }
   }
 }
