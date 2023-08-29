@@ -2,19 +2,91 @@
   "slides": [
     {
       "id": 1,
-      "text": "PSYCHOLOG BIZNESU PSYCHOLOG KONSULTUJĄCY W NURCIE SKONCENTROWANYM NA ROZWIĄZANIACH PSYCHODIETETYK STUDENTKA SZKOŁY PSYCHOTERAPII POZNAWCZO - BEHAWIORALNEJ WSPÓŁTWÓRCA PSYCHO ACADEMY WSPÓŁPRACOWNIK FUNDACJI PRAESTERNO WSPÓŁPRACOWNIK WOJEWÓDZKIEGO SZPITALA PSYCHIATRYCZNEGO W GDAŃSKU PSYCHOEDUKATOR I SZKOLENIOWIEC"
+      "className": "one",
+      "text": [
+        {
+          "id": 0,
+          "line": "PSYCHOLOG BIZNESU PSYCHOLOG KONSULTUJĄCY W NURCIE SKONCENTROWANYM NA ROZWIĄZANIACH"
+        },
+        {
+          "id": 1,
+          "line": "PSYCHODIETETYK"
+        },
+        {
+          "id": 2,
+          "line": "STUDENTKA SZKOŁY PSYCHOTERAPII POZNAWCZO - BEHAWIORALNEJ"
+        },
+        {
+          "id": 3,
+          "line": "WSPÓŁTWÓRCA PSYCHO ACADEMY"
+        },
+        {
+          "id": 4,
+          "line": "WSPÓŁPRACOWNIK FUNDACJI PRAESTERNO"
+        },
+        {
+          "id": 5,
+          "line": " WSPÓŁPRACOWNIK WOJEWÓDZKIEGO SZPITALA PSYCHIATRYCZNEGO W GDAŃSKU "
+        },
+        {
+          "id": 6,
+          "line": "PSYCHOEDUKATOR I SZKOLENIOWIEC"
+        }
+      ]
     },
     {
       "id": 2,
-      "text": "Moje życie, zarówno prywatne, jak i zawodowe, to niekończąca się rozmowa. Słucham i mówię. Wspieram i rozumiem. Szczerze ciekawie się ludźmi i światem.<br><br>Na co dzień pochłaniają mnie obserwacje otaczającej rzeczywistości oraz analiza własnych myśli i emocji. Czasem dobrych, czasem trudnych. Idę przez świat z wdzięcznością i życzliwością, co wraca do mnie ze zdwojoną siłą. Dzięki temu wiem, że największą wartością w moim życiu są otaczające mnie istoty."
+      "className": "two",
+      "text": [
+        {
+          "id": 0,
+          "line": "Moje życie, zarówno prywatne, jak i zawodowe, to niekończąca się rozmowa. Słucham i mówię. Wspieram i rozumiem. Szczerze ciekawie się ludźmi i światem."
+        },
+        {
+          "id": 1,
+          "line": "Na co dzień pochłaniają mnie obserwacje otaczającej rzeczywistości oraz analiza własnych myśli i emocji. Czasem dobrych, czasem trudnych. Idę przez świat z wdzięcznością i życzliwością, co wraca do mnie ze zdwojoną siłą. Dzięki temu wiem, że największą wartością w moim życiu są otaczające mnie istoty."
+        }
+      ]
     },
     {
       "id": 3,
-      "text": "Idę przez życie wierząc, że warto mieć: oczy, które widzą umiejętności i niepozorne zmiany, uszy, które słyszą koncentrując się wyłącznie na mocnych stronach, usta, które mówią z największą dbałością, bo słowa nie tylko opisują świat, ale i go tworzą, ręce, które poszukują rozwiązań i gromadzą różnego rodzaju umiejętności, serce, które odróżnia intencje od zachowań, bo intencje są zazwyczaj piękne."
+      "className": "three",
+      "text": [
+        {
+          "id": 0,
+          "line": "Idę przez życie wierząc, że warto mieć : "
+        },
+        {
+          "id": 1,
+          "line": "oczy, które widzą umiejętności i niepozorne zmiany, "
+        },
+        {
+          "id": 2,
+          "line": "uszy, które słyszą koncentrując się wyłącznie na mocnych stronach,"
+        },
+        {
+          "id": 3,
+          "line": "usta, które mówią z największą dbałością, bo słowa nie tylko opisują świat, ale i go tworzą,"
+        },
+        {
+          "id": 4,
+          "line": " ręce, które poszukują rozwiązań i gromadzą różnego rodzaju umiejętności,"
+        },
+        {
+          "id": 5,
+          "line": " serce, które odróżnia intencje od zachowań, bo intencje są zazwyczaj piękne,"
+        }
+      ]
     },
     {
       "id": 4,
-      "text": "Wierzę, że na jakość i satysfakcję z życia w znaczącym stopniu wpływa nasze zdrowie psychiczne. Dlatego warto podchodzić do niego z największą dbałością. Jako psycholog towarzyszę moim klientom podczas indywidualnych spotkań terapeutycznych oraz prowadzę szkolenia i warsztaty skierowane zarówno do osób prywatnych, jak i korporacji."
+      "className": "two",
+      "text": [
+        {
+          "id": 0,
+          "line": "Wierzę, że na jakość i satysfakcję z życia w znaczącym stopniu wpływa nasze zdrowie psychiczne. Dlatego warto podchodzić do niego z największą dbałością. Jako psycholog towarzyszę moim klientom podczas indywidualnych spotkań terapeutycznych oraz prowadzę szkolenia i warsztaty skierowane zarówno do osób prywatnych, jak i korporacji."
+        }
+      ]
     }
   ]
 }

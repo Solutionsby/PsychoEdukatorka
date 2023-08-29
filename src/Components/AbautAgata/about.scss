@@ -6,6 +6,7 @@
   height: 80vh;
   align-items: center;
   justify-content: center;
+
   .about-border {
     display: flex;
     flex-direction: column;
@@ -31,6 +32,13 @@
         font-weight: 200;
         font-family: $open-sans;
       }
+    }
+    .about-slider-wrapper {
+      align-self: center;
+      margin-bottom: 5px;
+      background-color: #e8f2f9;
+      height: calc(100% - 5px);
+      width: calc(100% - 10px);
     }
   }
 }

@@ -1,7 +1,7 @@
 import "./navigation.scss";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import { toggleActive } from "../slicer/isActiveSlicer";
+import { toggleActive, isOpen } from "../slicer/isActiveSlicer";
 import { useDispatch } from "react-redux";
 import { InstagramIcon } from "../../assets/InstagramIcon";
 
@@ -9,7 +9,7 @@ export const Navigation = ({ isActive }) => {
   const dispatch = useDispatch();
   return (
     <div className="navigation-wrapper">
-      <div className="navigation-logo">
+      <div className="navigation-logo" onClick={() => dispatch(isOpen())}>
         <Link to="/"></Link>
       </div>
       <div className="navigation-menu" onClick={() => dispatch(toggleActive())}>
