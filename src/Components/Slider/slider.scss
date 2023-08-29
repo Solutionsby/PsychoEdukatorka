@@ -1,0 +1,42 @@
+@import "../../assets/fontsVariable";
+
+.slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  color: black;
+  p {
+    font-family: $open-sans;
+    font-size: 10px;
+    margin: 0px 0 0 0px;
+    &.one {
+      text-align: left;
+    }
+    &.two {
+      color: red;
+    }
+    &.three {
+      text-align: justify;
+    }
+  }
+  .arrows {
+    display: flex;
+    justify-content: space-between;
+  }
+  .one-arrow {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .arrow {
+    align-self: end;
+    text-align: center;
+    font-size: 28px;
+    width: 30px;
+    font-weight: bold;
+    color: #38544b;
+    cursor: pointer;
+  }
+}

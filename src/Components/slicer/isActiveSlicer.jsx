@@ -9,8 +9,13 @@ export const activeSlice = createSlice({
     toggleActive: (state) => {
       state.active = !state.active;
     },
+    isOpen: (state) => {
+      if (state.active === true) {
+        state.active = false;
+      }
+    },
   },
 });
 
-export const { toggleActive } = activeSlice.actions;
+export const { toggleActive, isOpen } = activeSlice.actions;
 export default activeSlice.reducer;
