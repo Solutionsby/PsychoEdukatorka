@@ -19,6 +19,7 @@ export const Slider = ({ slides }) => {
   const goToSlide = (slideIndex) => {
     setCurentIndex(slideIndex);
   };
+
   return (
     <div className="slider-wrapper">
       {slides[currentIndex].text.map(({ id, line }) => (
@@ -35,7 +36,15 @@ export const Slider = ({ slides }) => {
         {slides.map((_slide, slideIndex) => (
           <div
             key={slideIndex}
-            className={currentIndex === slideIndex ? "active" : "dots"}
+            className={
+              currentIndex === 0
+                ? currentIndex === slideIndex
+                  ? "active dots singel-arrow"
+                  : "dots singel-arrow"
+                : currentIndex === slideIndex
+                ? "active dots"
+                : "dots"
+            }
             onClick={() => goToSlide(slideIndex)}
           >
             ●

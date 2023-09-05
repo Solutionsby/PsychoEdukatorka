@@ -1,0 +1,70 @@
+@import "../../../assets/fontsVariable.scss";
+
+.consultation-option-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  height: 80vh;
+  .consultation-option-border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 23px 24px 0px 24px;
+    border: 2px solid $primary-color;
+    height: calc(100% - 26px);
+    width: calc(100% - 48px);
+    .consultation-option-header {
+      display: flex;
+      justify-content: center;
+      width: calc(100% - 18px);
+      height: 40%;
+      h3 {
+        width: 50%;
+        text-align: center;
+        margin-top: 20%;
+        color: black;
+        font-size: 14px;
+      }
+      p {
+        font-size: 8px;
+        width: 80%;
+        color: black;
+        margin: 8% 0;
+      }
+      .consultation-option-image {
+        height: 100%;
+        width: 45%;
+        margin: 20% 0 0 0;
+        z-index: 2;
+        background-image: url("/Img/Image/consultationCouch.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        .consultation-option-bouble {
+          display: flex;
+          justify-content: center;
+          width: 50%;
+          height: 50%;
+          margin: -40% 0 0 50%;
+          background-image: url("/Img/Image/ballonOne.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .consultation-option-content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: calc(100% - 18px);
+      height: calc(100% - 9px);
+      margin-bottom: 9px;
+      background-color: $primary-color;
+      .consultation-option-content {
+        width: 95%;
+        height: 85%;
+        background-color: black;
+      }
+    }
+  }
+}
