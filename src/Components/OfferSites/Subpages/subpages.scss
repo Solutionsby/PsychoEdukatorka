@@ -62,8 +62,14 @@
       background-color: $primary-color;
       .consultation-option-content {
         width: 95%;
-        height: 85%;
-        background-color: black;
+        height: 80%;
+        .consultation-arrow {
+          text-align: left;
+          a {
+            font-size: 20px;
+            color: $arrow-color;
+          }
+        }
       }
     }
   }

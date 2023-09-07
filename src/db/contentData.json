@@ -93,8 +93,17 @@
     {
       "id": 1,
       "heading": "KONSULTACJE PSYCHOLOGICZNE",
-      "bouble": "Poznajmy się",
-      "content": " text"
+      "bouble": "Poznajmy się"
+    },
+    {
+      "id": 2,
+      "heading": "KONSULTACJE PSYCHOLOGICZNE",
+      "bouble": "Porozmawiajmy"
+    },
+    {
+      "id": 3,
+      "heading": "KONSULTACJE PSYCHOLOGICZNE",
+      "bouble": "Zaopiekujemy się Tobą"
     }
   ]
 }

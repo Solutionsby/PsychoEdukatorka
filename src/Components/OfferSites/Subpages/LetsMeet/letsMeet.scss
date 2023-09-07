@@ -1,0 +1,13 @@
+.lets-meet-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  height: 100%;
+  p {
+    margin: 0 0;
+    color: black;
+    font-size: 8px;
+  }
+}

@@ -6,7 +6,7 @@ import { Navigation } from "./Components/Navigation/Navigation";
 import { MainPage } from "./Components/MainPage/MainPage";
 import { About } from "./Components/AbautAgata/About";
 import { Consultations } from "./Components/OfferSites/Consultations";
-import { LetsMeet } from "./Components/OfferSites/Subpages/LetsMeet";
+import { ConsultationOption } from "./Components/OfferSites/Subpages/ConsultationOption";
 
 const App = () => {
   const isActive = useSelector((state) => state.active);
@@ -19,9 +19,20 @@ const App = () => {
         <Route
           path="/letsMeet"
           element={
-            <LetsMeet
+            <ConsultationOption
               heading={consutlation[0].heading}
               bouble={consutlation[0].bouble}
+              pageToShow="pageLetsMeet"
+            />
+          }
+        />
+        <Route
+          path="/letsTalk"
+          element={
+            <ConsultationOption
+              heading={consutlation[0].heading}
+              bouble={consutlation[1].bouble}
+              pageToShow="pageLetsTalk"
             />
           }
         />

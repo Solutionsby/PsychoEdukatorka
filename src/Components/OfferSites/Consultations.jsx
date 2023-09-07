@@ -12,7 +12,9 @@ export const Consultations = () => {
             </Link>
           </div>
           <div className="consultation-talk">
-            <h3>Porozmawiajmy &#10097;</h3>
+            <h3>
+              <Link to="/letsTalk">Porozmawiajmy &#10097;</Link>
+            </h3>
           </div>
           <div className="consultation-care">
             <h3>Zaopiekujmy się Tobą &#10097;</h3>
