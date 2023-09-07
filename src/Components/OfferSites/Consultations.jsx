@@ -8,18 +8,24 @@ export const Consultations = () => {
         <div className="consultation-ballon">
           <div className="consultation-hello">
             <Link to="/letsMeet">
-              <h3>Poznajmy się &#10097;</h3>
+              <h4>
+                Poznajmy się <p>&#10097;</p>
+              </h4>
             </Link>
           </div>
           <div className="consultation-talk">
-            <h3>
-              <Link to="/letsTalk">Porozmawiajmy &#10097;</Link>
-            </h3>
+            <h4>
+              <Link to="/letsTalk">
+                Porozmawiajmy <p>&#10097;</p>
+              </Link>
+            </h4>
           </div>
           <div className="consultation-care">
-            <h3>
-              <Link to="/letsCare">Zaopiekujmy się Tobą &#10097;</Link>
-            </h3>
+            <h4>
+              <Link to="/letsCare">
+                Zaopiekujmy się Tobą <p>&#10097;</p>
+              </Link>
+            </h4>
           </div>
         </div>
       </div>

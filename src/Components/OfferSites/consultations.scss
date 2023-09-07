@@ -1,3 +1,5 @@
+@import "../../assets/fontsVariable.scss";
+
 .consultation-wrapper {
   display: flex;
   width: 100vw;
@@ -35,8 +37,14 @@
         &.consultation-care {
           margin-bottom: 3vh;
         }
-        h3 {
-          font-size: 12px;
+        h4 {
+          font-size: 14px;
+          line-height: 1;
+          font-family: $shadows-into;
+          p {
+            display: inline;
+            font-size: 14px;
+          }
         }
       }
     }
