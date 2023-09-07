@@ -20,7 +20,6 @@ const App = () => {
           path="/letsMeet"
           element={
             <ConsultationOption
-              heading={consutlation[0].heading}
               bouble={consutlation[0].bouble}
               pageToShow="pageLetsMeet"
             />
@@ -30,7 +29,6 @@ const App = () => {
           path="/letsTalk"
           element={
             <ConsultationOption
-              heading={consutlation[0].heading}
               bouble={consutlation[1].bouble}
               pageToShow="pageLetsTalk"
             />
@@ -40,7 +38,6 @@ const App = () => {
           path="/letsCare"
           element={
             <ConsultationOption
-              heading={consutlation[0].heading}
               bouble={consutlation[2].bouble}
               pageToShow="pageLetsCare"
             />
