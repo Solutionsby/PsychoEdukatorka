@@ -17,7 +17,9 @@ export const Consultations = () => {
             </h3>
           </div>
           <div className="consultation-care">
-            <h3>Zaopiekujmy się Tobą &#10097;</h3>
+            <h3>
+              <Link to="/letsCare">Zaopiekujmy się Tobą &#10097;</Link>
+            </h3>
           </div>
         </div>
       </div>

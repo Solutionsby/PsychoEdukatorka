@@ -36,6 +36,16 @@ const App = () => {
             />
           }
         />
+        <Route
+          path="/letsCare"
+          element={
+            <ConsultationOption
+              heading={consutlation[0].heading}
+              bouble={consutlation[2].bouble}
+              pageToShow="pageLetsCare"
+            />
+          }
+        />
       </Routes>
       <Navigation isActive={isActive.active} />
     </Router>
