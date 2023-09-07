@@ -3,11 +3,13 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { LetsMeet } from "./LetsMeet/LetsMeet";
 import { LetsTalk } from "./LetsTalk/LetsTalk";
+import { LetsCare } from "./LetsCare/LetsCare";
 
 export const ConsultationOption = ({ heading, bouble, pageToShow }) => {
   const aviableComponents = [
     { id: "pageLetsMeet", component: <LetsMeet /> },
     { id: "pageLetsTalk", component: <LetsTalk /> },
+    { id: "pageLetsCare", component: <LetsCare /> },
   ];
 
   const componentToShow = pageToShow;

@@ -105,5 +105,9 @@
       "heading": "KONSULTACJE PSYCHOLOGICZNE",
       "bouble": "Zaopiekujemy się Tobą"
     }
-  ]
+  ],
+  "price": {
+    "consultation": 200,
+    "therapy": 180
+  }
 }
