@@ -3,7 +3,6 @@ import { slides } from "../../db/contentData.json";
 import "./about.scss";
 
 export const About = () => {
-  console.log();
   return (
     <div className="about-wrapper">
       <div className="about-border">

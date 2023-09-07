@@ -3,20 +3,21 @@
 .slider-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 95%;
-  height: 100%;
-  margin: 0 auto;
+  height: 95%;
+  margin: 5px auto;
   color: black;
   p {
     font-family: $open-sans;
     font-size: 10px;
-    margin: 0px 0 0 0px;
+    margin: 0 0;
+    transition: 0.8s;
     &.one {
       text-align: left;
     }
     &.two {
-      color: red;
+      text-align: center;
     }
     &.three {
       text-align: justify;
@@ -38,5 +39,17 @@
     font-weight: bold;
     color: #38544b;
     cursor: pointer;
+  }
+  .dots {
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    transition: 0.2s;
+    &.singel-arrow {
+      margin-right: 30px;
+    }
+  }
+  .active {
+    color: $primary-color;
   }
 }

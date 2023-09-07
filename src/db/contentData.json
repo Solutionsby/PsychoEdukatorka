@@ -6,30 +6,30 @@
       "text": [
         {
           "id": 0,
-          "line": "PSYCHOLOG BIZNESU PSYCHOLOG KONSULTUJĄCY W NURCIE SKONCENTROWANYM NA ROZWIĄZANIACH"
+          "line": "PSYCHOLOG"
         },
         {
           "id": 1,
-          "line": "PSYCHODIETETYK"
+          "line": "PSYCHOTERAPEUTA POZNAWCZO - BEHAWIORALNY W TRAKCIE CERTYFIKACJI"
         },
         {
           "id": 2,
-          "line": "STUDENTKA SZKOŁY PSYCHOTERAPII POZNAWCZO - BEHAWIORALNEJ"
-        },
-        {
-          "id": 3,
-          "line": "WSPÓŁTWÓRCA PSYCHO ACADEMY"
+          "line": "PSYCHODIETETYK"
         },
         {
           "id": 4,
-          "line": "WSPÓŁPRACOWNIK FUNDACJI PRAESTERNO"
+          "line": "ZAłożycielka centrum zdrowia psychicznego PSYCHO ACADEMY"
         },
         {
           "id": 5,
-          "line": " WSPÓŁPRACOWNIK WOJEWÓDZKIEGO SZPITALA PSYCHIATRYCZNEGO W GDAŃSKU "
+          "line": "WSPÓŁPRACOWNIK FUNDACJI PRAESTERNO"
         },
         {
           "id": 6,
+          "line": " WSPÓŁPRACOWNIK WOJEWÓDZKIEGO SZPITALA PSYCHIATRYCZNEGO W GDAŃSKU "
+        },
+        {
+          "id": 7,
           "line": "PSYCHOEDUKATOR I SZKOLENIOWIEC"
         }
       ]
@@ -70,11 +70,11 @@
         },
         {
           "id": 4,
-          "line": " ręce, które poszukują rozwiązań i gromadzą różnego rodzaju umiejętności,"
+          "line": "ręce, które poszukują rozwiązań i gromadzą różnego rodzaju umiejętności,"
         },
         {
           "id": 5,
-          "line": " serce, które odróżnia intencje od zachowań, bo intencje są zazwyczaj piękne,"
+          "line": "serce, które odróżnia intencje od zachowań, bo intencje są zazwyczaj piękne,"
         }
       ]
     },
@@ -87,6 +87,23 @@
           "line": "Wierzę, że na jakość i satysfakcję z życia w znaczącym stopniu wpływa nasze zdrowie psychiczne. Dlatego warto podchodzić do niego z największą dbałością. Jako psycholog towarzyszę moim klientom podczas indywidualnych spotkań terapeutycznych oraz prowadzę szkolenia i warsztaty skierowane zarówno do osób prywatnych, jak i korporacji."
         }
       ]
+    }
+  ],
+  "consutlation": [
+    {
+      "id": 1,
+      "heading": "KONSULTACJE PSYCHOLOGICZNE",
+      "bouble": "Poznajmy się"
+    },
+    {
+      "id": 2,
+      "heading": "KONSULTACJE PSYCHOLOGICZNE",
+      "bouble": "Porozmawiajmy"
+    },
+    {
+      "id": 3,
+      "heading": "KONSULTACJE PSYCHOLOGICZNE",
+      "bouble": "Zaopiekujemy się Tobą"
     }
   ]
 }
