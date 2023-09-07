@@ -1,0 +1,26 @@
+@import "../../../../assets/fontsVariable.scss";
+
+.lets-talk-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+  .lets-talk-div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 5%;
+    h4 {
+      margin: 0;
+      color: black;
+      font-family: $open-sans;
+      font-size: 16px;
+    }
+    a {
+      font-size: 16px;
+      font-family: $open-sans;
+      font-weight: 200;
+    }
+  }
+}

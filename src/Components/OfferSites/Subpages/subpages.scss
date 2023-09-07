@@ -61,6 +61,9 @@
       margin-bottom: 9px;
       background-color: $primary-color;
       .consultation-option-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         width: 95%;
         height: 80%;
         .consultation-arrow {
