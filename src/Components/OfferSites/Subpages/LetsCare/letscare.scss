@@ -1,0 +1,18 @@
+@import "../../../../assets/fontsVariable.scss";
+.lets-care-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  .lets-care-div {
+    margin-bottom: 20px;
+    h4 {
+      font-family: $open-sans;
+    }
+    p {
+      font-family: $open-sans;
+      font-weight: 200;
+      margin: 0;
+      font-size: 12px;
+    }
+  }
+}

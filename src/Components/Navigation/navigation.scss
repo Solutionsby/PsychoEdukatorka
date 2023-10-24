@@ -10,6 +10,21 @@
   align-items: start;
   height: 20vh;
   background-color: #fff;
+  z-index: 3;
+  .name-pargaraf {
+    position: fixed;
+    top: 0vh;
+    left: 65vw;
+    font-size: 10px;
+    font-family: $shadows-into;
+    color: black;
+    transition: 1s;
+    z-index: 5;
+    &.mainPage {
+      top: 68vh;
+      left: 10vw;
+    }
+  }
   .navigation-logo {
     display: flex;
     margin: 2vh 0 0 15vw;

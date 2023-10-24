@@ -1,14 +1,22 @@
 import "./navigation.scss";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { toggleActive, isOpen } from "../slicer/isActiveSlicer";
 import { useDispatch } from "react-redux";
 import { InstagramIcon } from "../../assets/InstagramIcon";
 
 export const Navigation = ({ isActive }) => {
   const dispatch = useDispatch();
+  const location = useLocation();
   return (
     <div className="navigation-wrapper">
+      <p
+        className={`name-pargaraf ${
+          isActive ? "open" : location.pathname === "/" ? "mainPage" : ""
+        } }`}
+      >
+        Agata Hemmerling-Goc
+      </p>
       <div className="navigation-logo" onClick={() => dispatch(isOpen())}>
         <Link to="/"></Link>
       </div>

@@ -5,7 +5,7 @@ import { LetsMeet } from "./LetsMeet/LetsMeet";
 import { LetsTalk } from "./LetsTalk/LetsTalk";
 import { LetsCare } from "./LetsCare/LetsCare";
 
-export const ConsultationOption = ({ heading, bouble, pageToShow }) => {
+export const ConsultationOption = ({ bouble, pageToShow }) => {
   const aviableComponents = [
     { id: "pageLetsMeet", component: <LetsMeet /> },
     { id: "pageLetsTalk", component: <LetsTalk /> },
@@ -26,7 +26,7 @@ export const ConsultationOption = ({ heading, bouble, pageToShow }) => {
               <p>{bouble}</p>
             </div>
           </div>
-          <h3>{heading}</h3>
+          <h3>KONSULTACJE PSYCHOLOGICZNE</h3>
         </div>
         <div className="consultation-option-content-wrapper">
           <div className="consultation-option-content">

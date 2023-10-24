@@ -80,7 +80,7 @@
     },
     {
       "id": 4,
-      "className": "two",
+      "className": "four",
       "text": [
         {
           "id": 0,
@@ -92,17 +92,14 @@
   "consutlation": [
     {
       "id": 1,
-      "heading": "KONSULTACJE PSYCHOLOGICZNE",
       "bouble": "Poznajmy się"
     },
     {
       "id": 2,
-      "heading": "KONSULTACJE PSYCHOLOGICZNE",
       "bouble": "Porozmawiajmy"
     },
     {
       "id": 3,
-      "heading": "KONSULTACJE PSYCHOLOGICZNE",
       "bouble": "Zaopiekujemy się Tobą"
     }
   ],
