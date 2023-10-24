@@ -6,22 +6,28 @@
   justify-content: space-between;
   width: 95%;
   height: 95%;
-  margin: 5px auto;
+  margin: auto;
   color: black;
   p {
     font-family: $open-sans;
     font-size: 10px;
     margin: 0 0;
     transition: 0.8s;
+    margin: auto 0;
     &.one {
       text-align: left;
     }
     &.two {
+      width: 70%;
+      align-self: center;
       text-align: center;
     }
     &.three {
       text-align: justify;
     }
+    // &.four {
+    //   margin: auto;
+    // }
   }
   .arrows {
     display: flex;
@@ -29,7 +35,10 @@
   }
   .one-arrow {
     display: flex;
-    justify-content: flex-end;
+    align-self: center;
+    width: 90%;
+    margin-left: 50px;
+    justify-content: space-around;
   }
   .arrow {
     align-self: end;

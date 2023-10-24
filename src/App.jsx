@@ -13,13 +13,14 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<MainPage isActive={isActive.active} />} />
+        <Route path="/" element={<MainPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/consultations" element={<Consultations />} />
         <Route
           path="/letsMeet"
           element={
             <ConsultationOption
+              heading={consutlation[0].heading}
               bouble={consutlation[0].bouble}
               pageToShow="pageLetsMeet"
             />
@@ -29,6 +30,7 @@ const App = () => {
           path="/letsTalk"
           element={
             <ConsultationOption
+              heading={consutlation[0].heading}
               bouble={consutlation[1].bouble}
               pageToShow="pageLetsTalk"
             />
@@ -38,6 +40,7 @@ const App = () => {
           path="/letsCare"
           element={
             <ConsultationOption
+              heading={consutlation[0].heading}
               bouble={consutlation[2].bouble}
               pageToShow="pageLetsCare"
             />

@@ -4,6 +4,7 @@ export const activeSlice = createSlice({
   name: "isActive",
   initialState: {
     active: false,
+    paragrafClass: "",
   },
   reducers: {
     toggleActive: (state) => {
@@ -14,8 +15,11 @@ export const activeSlice = createSlice({
         state.active = false;
       }
     },
+    setParagraphClass: (state, action) => {
+      state.paragrafClass = action.payload;
+    },
   },
 });
 
-export const { toggleActive, isOpen } = activeSlice.actions;
+export const { toggleActive, isOpen, setParagraphClass } = activeSlice.actions;
 export default activeSlice.reducer;
