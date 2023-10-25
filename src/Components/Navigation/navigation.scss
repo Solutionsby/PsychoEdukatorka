@@ -14,7 +14,7 @@
   .name-pargaraf {
     position: fixed;
     top: 0vh;
-    left: 65vw;
+    left: 75vw;
     font-size: 10px;
     font-family: $shadows-into;
     color: black;
@@ -80,11 +80,13 @@ nav {
   .navigation-menu-wrapper {
     ul {
       display: flex;
-      justify-content: center;
-      align-items: center;
       flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 80%;
       margin-top: 100px;
       padding-left: 0;
+      list-style: none;
       li {
         margin-bottom: 50px;
         a {
