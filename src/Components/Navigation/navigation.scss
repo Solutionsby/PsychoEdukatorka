@@ -125,13 +125,14 @@ nav {
     align-items: center;
     z-index: 2;
     .navigation-logo {
-      margin: 0 5%;
+      margin: 0 12%;
       height: 80%;
       width: 15%;
     }
     .navigation-desktop-menu {
       display: flex;
       justify-content: space-around;
+      margin-right: 15%;
       width: 30%;
       a {
         font-size: 20px;
