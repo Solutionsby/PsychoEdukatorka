@@ -22,8 +22,9 @@ export const Slider = ({ slides }) => {
 
   return (
     <div className="slider-wrapper">
-      {slides[currentIndex].text.map(({ id, line }) => (
+      {slides[currentIndex].text.map(({ id, line, span }) => (
         <p key={id} className={slides[currentIndex].className}>
+          {span && <span>{span}</span>}
           {line}
         </p>
       ))}

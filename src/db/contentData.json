@@ -6,30 +6,37 @@
       "text": [
         {
           "id": 0,
+          "span": "",
           "line": "PSYCHOLOG"
         },
         {
           "id": 1,
+          "span": "",
           "line": "PSYCHOTERAPEUTA POZNAWCZO - BEHAWIORALNY W TRAKCIE CERTYFIKACJI"
         },
         {
           "id": 2,
+          "span": "",
           "line": "PSYCHODIETETYK"
         },
         {
           "id": 4,
+          "span": "",
           "line": "ZAłożycielka centrum zdrowia psychicznego PSYCHO ACADEMY"
         },
         {
           "id": 5,
+          "span": "",
           "line": "WSPÓŁPRACOWNIK FUNDACJI PRAESTERNO"
         },
         {
           "id": 6,
+          "span": "",
           "line": " WSPÓŁPRACOWNIK WOJEWÓDZKIEGO SZPITALA PSYCHIATRYCZNEGO W GDAŃSKU "
         },
         {
           "id": 7,
+          "span": "",
           "line": "PSYCHOEDUKATOR I SZKOLENIOWIEC"
         }
       ]
@@ -40,10 +47,12 @@
       "text": [
         {
           "id": 0,
+          "span": "",
           "line": "Moje życie, zarówno prywatne, jak i zawodowe, to niekończąca się rozmowa. Słucham i mówię. Wspieram i rozumiem. Szczerze ciekawie się ludźmi i światem."
         },
         {
           "id": 1,
+          "span": "",
           "line": "Na co dzień pochłaniają mnie obserwacje otaczającej rzeczywistości oraz analiza własnych myśli i emocji. Czasem dobrych, czasem trudnych. Idę przez świat z wdzięcznością i życzliwością, co wraca do mnie ze zdwojoną siłą. Dzięki temu wiem, że największą wartością w moim życiu są otaczające mnie istoty."
         }
       ]
@@ -54,27 +63,33 @@
       "text": [
         {
           "id": 0,
+          "span": "",
           "line": "Idę przez życie wierząc, że warto mieć : "
         },
         {
           "id": 1,
-          "line": "oczy, które widzą umiejętności i niepozorne zmiany, "
+          "span": "oczy",
+          "line": ", które widzą umiejętności i niepozorne zmiany, "
         },
         {
           "id": 2,
-          "line": "uszy, które słyszą koncentrując się wyłącznie na mocnych stronach,"
+          "span": "uszy",
+          "line": ", które słyszą koncentrując się wyłącznie na mocnych stronach,"
         },
         {
           "id": 3,
-          "line": "usta, które mówią z największą dbałością, bo słowa nie tylko opisują świat, ale i go tworzą,"
+          "span": "usta",
+          "line": ", które mówią z największą dbałością, bo słowa nie tylko opisują świat, ale i go tworzą,"
         },
         {
           "id": 4,
-          "line": "ręce, które poszukują rozwiązań i gromadzą różnego rodzaju umiejętności,"
+          "span": "ręce",
+          "line": ", które poszukują rozwiązań i gromadzą różnego rodzaju umiejętności,"
         },
         {
           "id": 5,
-          "line": "serce, które odróżnia intencje od zachowań, bo intencje są zazwyczaj piękne,"
+          "span": "serce",
+          "line": ", które odróżnia intencje od zachowań, bo intencje są zazwyczaj piękne,"
         }
       ]
     },
