@@ -8,7 +8,7 @@
   right: 0;
   justify-content: space-between;
   align-items: start;
-  height: 20vh;
+  height: 15vh;
   background-color: #fff;
   z-index: 3;
   .name-pargaraf {
@@ -66,7 +66,7 @@ nav {
   position: fixed;
   top: 0;
   right: -1000px;
-  bottom: 20vh;
+  bottom: 15vh;
   width: 100%;
   transition: 1s;
   &.active {

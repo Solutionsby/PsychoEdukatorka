@@ -4,8 +4,8 @@
   display: flex;
   background-color: #fff;
   padding: 0;
-  width: 100vw;
-  height: 80vh;
+  width: 100%;
+  height: 88%;
 }
 .main-page-photo {
   display: flex;
@@ -15,7 +15,6 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
   width: 100%;
   color: black;
   .main-page-baloon {
