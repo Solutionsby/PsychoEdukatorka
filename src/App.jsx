@@ -12,6 +12,7 @@ const App = () => {
   const isActive = useSelector((state) => state.active);
   return (
     <Router>
+      <Navigation isActive={isActive.active} />
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/about" element={<About />} />
@@ -47,7 +48,7 @@ const App = () => {
           }
         />
       </Routes>
-      <Navigation isActive={isActive.active} />
+      {/* <Navigation isActive={isActive.active} /> */}
     </Router>
   );
 };
