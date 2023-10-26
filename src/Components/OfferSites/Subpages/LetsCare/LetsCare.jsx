@@ -9,7 +9,7 @@ export const LetsCare = () => {
         <p>(50 minut) - {price.consultation} zł</p>
       </div>
       <div className="lets-care-div">
-        <h4>Terapia Indywidualna</h4>
+        <h4>Terapia indywidualna</h4>
         <p>(50 min) - {price.therapy} zł</p>
       </div>
       <div className="lets-care-div">
