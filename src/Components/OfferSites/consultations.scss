@@ -50,3 +50,31 @@
     }
   }
 }
+@media screen and (orientation: landscape) {
+  .consultation-wrapper {
+    height: 100%;
+    width: 87%;
+    margin: 6% auto 0 auto;
+    .background-image {
+      width: 100%;
+      height: 100%;
+      background-image: url("/Img/Image/Desktop/Consultation.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      .consultation-ballon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2% -25% 0 0;
+        height: 50%;
+        width: 20%;
+        background-image: url("/Img/Image/ballonThree.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+}
