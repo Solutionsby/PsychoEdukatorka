@@ -10,7 +10,7 @@
   color: black;
   p {
     font-family: $open-sans;
-    font-size: 15px;
+    font-size: 12px;
     margin: 0 0;
     transition: 0.8s;
     margin: auto auto;
@@ -63,5 +63,12 @@
   }
   .active {
     color: $primary-color;
+  }
+}
+@media screen and (min-width: 400px) and (orientation: portrait) {
+  .slider-wrapper {
+    p {
+      font-size: 15px;
+    }
   }
 }

@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   width: 99vw;
-  height: 88%;
+  height: 87%;
   .consultation-option-border {
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
           background-size: contain;
           background-repeat: no-repeat;
           p {
-            font-size: 12px;
+            font-size: 8px;
             font-family: $shadows-into;
             width: 80%;
             height: 20%;
@@ -85,6 +85,25 @@
   }
   .consultation-option-bouble-desktop {
     display: none;
+  }
+}
+@media screen and (min-width: 400px) and (orientation: portrait) {
+  .consultation-option-wrapper {
+    height: 88%;
+    .consultation-option-border {
+      .consultation-option-header {
+        h3 {
+          font-size: 19px;
+        }
+        .consultation-option-image {
+          .consultation-option-bouble {
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 @media screen and (orientation: landscape) {
