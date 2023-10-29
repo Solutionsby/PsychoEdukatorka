@@ -16,7 +16,7 @@ export const Navigation = ({ isActive }) => {
             isActive ? "open" : location.pathname === "/" ? "mainPage" : ""
           } }`}
         >
-          Agata Hemmerling-Goc
+          Agata Hemmerling-Goc.
         </p>
         <div className="navigation-logo" onClick={() => dispatch(isOpen())}>
           <Link to="/"></Link>
