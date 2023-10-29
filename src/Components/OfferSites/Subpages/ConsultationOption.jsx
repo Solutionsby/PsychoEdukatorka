@@ -1,22 +1,34 @@
 import "./subpages.scss";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { LetsMeet } from "./LetsMeet/LetsMeet";
 import { LetsTalk } from "./LetsTalk/LetsTalk";
 import { LetsCare } from "./LetsCare/LetsCare";
 
 export const ConsultationOption = ({ bouble, pageToShow }) => {
+  const location = useLocation();
+  const componentToShow = pageToShow;
   const aviableComponents = [
     { id: "pageLetsMeet", component: <LetsMeet /> },
     { id: "pageLetsTalk", component: <LetsTalk /> },
     { id: "pageLetsCare", component: <LetsCare /> },
   ];
+  const options = [
+    { from: "/letsMeet", LeftTo: "/consultations", rightTo: "/letsTalk" },
+    { from: "/letsCare", LeftTo: "/letsTalk", rightTo: "/consultations" },
+    { from: "/letsTalk", LeftTo: "/letsMeet", rightTo: "/letsCare" },
+  ];
 
-  const componentToShow = pageToShow;
-  const selectedComponent = aviableComponents.find(
-    (item) => item.id === componentToShow
-  );
+  const selected = (array, arrayComponent, comparison) => {
+    return array.find((item) => item[arrayComponent] === comparison);
+  };
 
+  const selectedOption = selected(options, "from", location.pathname);
+  const selectedComponent = selected(aviableComponents, "id", componentToShow);
+
+  // // const selectedComponent = aviableComponents.find(
+  // //   (item) => item.id === componentToShow
+  // );
   return (
     <div className="consultation-option-wrapper">
       <div className="consultation-option-border">
@@ -37,11 +49,34 @@ export const ConsultationOption = ({ bouble, pageToShow }) => {
           </div>
         </div>
       </div>
+      <div className="consultation-option-desktop">
+        <div className="consultation-wrapper-content-desktop">
+          {selectedComponent && selectedComponent.component}
+        </div>
+      </div>
+      <div className="consultation-option-bouble-desktop">
+        {selectedOption && (
+          <>
+            <Link
+              className="arrow-in-bouble-desktop-left"
+              to={selectedOption.LeftTo}
+            >
+              &#10096;
+            </Link>
+            <p>{bouble}</p>
+            <Link
+              className="arrow-in-bouble-desktop-right"
+              to={selectedOption.rightTo}
+            >
+              &#10097;
+            </Link>
+          </>
+        )}
+      </div>
     </div>
   );
 };
 ConsultationOption.propTypes = {
-  heading: PropTypes.string.isRequired,
   bouble: PropTypes.string.isRequired,
   pageToShow: PropTypes.string.isRequired,
 };

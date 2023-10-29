@@ -41,4 +41,41 @@
       width: calc(100% - 10px);
     }
   }
+  .about-slider-wrapper-desktop {
+    display: none;
+  }
+}
+@media screen and (orientation: landscape) {
+  .about-wrapper {
+    display: flex;
+    justify-content: end;
+    margin-top: 5vh;
+    height: 100%;
+    background-image: url("/Img/Image/Desktop/[WEB] grafika glowna - kokon - blekit - BEZ KWIATA.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    .about-border {
+      display: none;
+    }
+    .about-border-desktop {
+      display: flex;
+      height: 35%;
+      width: 40%;
+      margin: 15vh 10vw 0 0;
+      border: solid 1px black;
+      justify-content: center;
+      align-items: center;
+
+      .about-slider-wrapper-desktop {
+        display: flex;
+        background-color: rgba(217, 194, 196, 0.6);
+        height: 95%;
+        width: 99%;
+        .slider-wrapper {
+          // color: white;
+        }
+      }
+    }
+  }
 }

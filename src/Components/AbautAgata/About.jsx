@@ -14,6 +14,11 @@ export const About = () => {
           <Slider slides={slides} />
         </div>
       </div>
+      <div className="about-border-desktop">
+        <div className="about-slider-wrapper-desktop">
+          <Slider slides={slides} />
+        </div>
+      </div>
     </div>
   );
 };

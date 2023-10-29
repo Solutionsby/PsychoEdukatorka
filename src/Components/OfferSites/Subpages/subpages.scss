@@ -76,4 +76,64 @@
       }
     }
   }
+  .consultation-option-desktop {
+    display: none;
+  }
+  .consultation-option-bouble-desktop {
+    display: none;
+  }
+}
+@media screen and (orientation: landscape) {
+  .consultation-option-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    width: 87%;
+    margin: 6% auto 0 auto;
+    background-image: url("/Img/Image/Desktop/Consultation.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    .consultation-option-desktop {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 40%;
+      margin: 12% 7%;
+      border: 1px solid black;
+      .consultation-wrapper-content-desktop {
+        background-color: white;
+        width: 98%;
+        height: 98%;
+      }
+    }
+    .consultation-option-bouble-desktop {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin: 12% 13% 0 0;
+      width: 20%;
+      height: 30%;
+      background-image: url("/Img/Image/ballonOne.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      p {
+        font-size: 18px;
+        margin: 22% 0 0 0;
+      }
+      .arrow-in-bouble-desktop-left {
+        font-size: 25px;
+        margin: 21% 0 0 14%;
+      }
+      .arrow-in-bouble-desktop-right {
+        font-size: 25px;
+        margin: 21% 14% 0 0;
+      }
+    }
+    .consultation-option-border {
+      display: none;
+    }
+  }
 }
