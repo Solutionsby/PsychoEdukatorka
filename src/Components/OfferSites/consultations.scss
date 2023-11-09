@@ -51,30 +51,83 @@
     }
   }
 }
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-width: 840px) {
   .consultation-wrapper {
     height: 100%;
     width: 87%;
-    margin: 6% auto 0 auto;
+    margin: 2% auto 0 auto;
+    .background-image {
+      width: 100%;
+      height: 80%;
+      background-image: url("/Img/Image/Desktop/Consultation.png");
+      .consultation-ballon {
+        margin: 2% -25% 0 0;
+        width: 20%;
+        background-image: url("/Img/Image/ballonThree.png");
+        div {
+          &.consultation-care {
+            margin-left: 6%;
+          }
+          h4 {
+            font-size: 9px;
+            p {
+              font-size: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 841px) and (max-width: 1200px) {
+  .consultation-wrapper {
+    height: 100%;
+    margin: 8% auto 0 auto;
+    .background-image {
+      width: 100%;
+      height: 90%;
+      background-image: url("/Img/Image/Desktop/Consultation.png");
+      .consultation-ballon {
+        margin: 2% -25% 0 0;
+        width: 20%;
+        div {
+          &.consultation-care {
+            margin-left: 6%;
+          }
+          h4 {
+            font-size: 16px;
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1200px) {
+  .consultation-wrapper {
+    height: 100%;
+    margin: 10% auto 0 auto;
     .background-image {
       width: 100%;
       height: 100%;
       background-image: url("/Img/Image/Desktop/Consultation.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
       .consultation-ballon {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
         margin: 2% -25% 0 0;
-        height: 50%;
         width: 20%;
-        background-image: url("/Img/Image/ballonThree.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+        div {
+          &.consultation-care {
+            margin-left: 6%;
+          }
+          h4 {
+            font-size: 16px;
+            p {
+              font-size: 16px;
+            }
+          }
+        }
       }
     }
   }

@@ -21,3 +21,13 @@
     }
   }
 }
+@media screen and (orientation: landscape) and (max-width: 840px) {
+  .lets-care-wrapper {
+    .lets-care-div {
+      margin-bottom: 10px;
+      h4 {
+        font-size: 14px;
+      }
+    }
+  }
+}

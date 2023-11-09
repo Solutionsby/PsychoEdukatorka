@@ -25,3 +25,30 @@
     }
   }
 }
+@media screen and (orientation: landscape) and (max-width: 840px) {
+  .lets-talk-wrapper {
+    height: 95%;
+    .lets-talk-div {
+      width: 95%;
+      margin-bottom: 2%;
+    }
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 841px) and (max-width: 1200px) {
+  .lets-talk-wrapper {
+    height: 95%;
+    .lets-talk-div {
+      width: 95%;
+      margin-bottom: 2%;
+    }
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 1201px) {
+  .lets-talk-wrapper {
+    height: 95%;
+    .lets-talk-div {
+      width: 95%;
+      margin-bottom: 2%;
+    }
+  }
+}

@@ -41,10 +41,10 @@
     height: 88%;
   }
 }
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-width: 840px) {
   .main-page-wrapper {
-    margin-top: 5vh;
-    height: 100%;
+    margin-top: 10vh;
+    height: 80%;
   }
   .main-page-photo {
     background-image: url("/Img/Image/Desktop/[WEB] grafika glowna - kokon - blekit.png");
@@ -52,12 +52,61 @@
       background-position: left;
       justify-content: left;
       width: 30%;
+      height: 40%;
       margin: 5% 0 0 5%;
       p {
         margin-top: 0;
         margin-left: 5%;
         align-self: center;
-        font-size: 18px;
+        font-size: 12px;
+        height: 50%;
+        width: 45%;
+      }
+    }
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 841px) and (max-width: 1200px) {
+  .main-page-wrapper {
+    margin-top: 10vh;
+    height: 95%;
+  }
+  .main-page-photo {
+    background-image: url("/Img/Image/Desktop/[WEB] grafika glowna - kokon - blekit.png");
+    .main-page-baloon {
+      background-position: left;
+      justify-content: left;
+      align-items: center;
+      width: 30%;
+      height: 30%;
+      margin: 5% 5% 0 0;
+      p {
+        margin-top: 0;
+        margin-left: 5%;
+        font-size: 16px;
+        height: 50%;
+        width: 45%;
+      }
+    }
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 1201px) {
+  .main-page-wrapper {
+    margin-top: min(10vh, 75px);
+    height: 100%;
+  }
+  .main-page-photo {
+    background-image: url("/Img/Image/Desktop/[WEB] grafika glowna - kokon - blekit.png");
+    .main-page-baloon {
+      background-position: left;
+      justify-content: left;
+      align-items: center;
+      width: 30%;
+      height: 30%;
+      margin: 5% 5% 0 0;
+      p {
+        margin-top: 0;
+        margin-left: 8%;
+        font-size: 20px;
         height: 50%;
         width: 45%;
       }

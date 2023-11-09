@@ -72,3 +72,17 @@
     }
   }
 }
+@media screen and (orientation: landscape) and (max-width: 840px) {
+  .slider-wrapper {
+    p {
+      font-size: 9px;
+    }
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 841px) and (max-width: 1200px) {
+  .slider-wrapper {
+    p {
+      font-size: 15px;
+    }
+  }
+}
