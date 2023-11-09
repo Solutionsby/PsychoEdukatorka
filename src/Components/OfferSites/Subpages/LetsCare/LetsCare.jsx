@@ -19,6 +19,7 @@ export const LetsCare = () => {
       <div className="lets-care-div">
         <p>
           <h4>{letsCare[2].pararafText}</h4>
+          <h4>{letsCare[3].pararafText}</h4>
         </p>
       </div>
     </div>

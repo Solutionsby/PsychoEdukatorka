@@ -22,10 +22,11 @@
     }
   }
 }
-@media screen and (orientation: landscape) and (max-width: 840px) {
+@media screen and (orientation: landscape) {
   .lets-meet-wrapper {
+    justify-content: space-evenly;
     p {
-      font-size: 9px;
+      font-size: 13px;
     }
   }
 }
