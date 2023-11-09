@@ -17,10 +17,10 @@ export const LetsCare = () => {
         </p>
       </div>
       <div className="lets-care-div">
-        <p>
+        <div>
           <h4>{letsCare[2].pararafText}</h4>
           <h4>{letsCare[3].pararafText}</h4>
-        </p>
+        </div>
       </div>
     </div>
   );
