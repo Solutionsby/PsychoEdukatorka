@@ -43,13 +43,72 @@
   }
   .about-slider-wrapper-desktop {
     display: none;
+    background-color: rgba(217, 194, 196, 0.6);
+    height: 95%;
+    width: 99%;
+  }
+  .about-border-desktop {
+    display: none;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
   }
 }
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-width: 840px) {
   .about-wrapper {
     display: flex;
     justify-content: end;
-    margin-top: 5vh;
+    margin-top: 10vh;
+    height: 80%;
+    background-image: url("/Img/Image/Desktop/[WEB] grafika glowna - kokon - blekit - BEZ KWIATA.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    .about-border {
+      display: none;
+    }
+    .about-border-desktop {
+      display: flex;
+      height: 80%;
+      width: 50%;
+      margin: 5vh 2vw 0 0;
+
+      .about-slider-wrapper-desktop {
+        display: flex;
+      }
+    }
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 841px) and (max-width: 1200px) {
+  .about-wrapper {
+    display: flex;
+    justify-content: end;
+    margin-top: 10vh;
+    height: 95%;
+    background-image: url("/Img/Image/Desktop/[WEB] grafika glowna - kokon - blekit - BEZ KWIATA.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    .about-border {
+      display: none;
+    }
+    .about-border-desktop {
+      display: flex;
+      height: 45%;
+      width: 45%;
+      margin: 15% 10% 0 0;
+
+      .about-slider-wrapper-desktop {
+        display: flex;
+      }
+    }
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 1201px) {
+  .about-wrapper {
+    display: flex;
+    justify-content: end;
+    margin-top: min(10vh, 75px);
     height: 100%;
     background-image: url("/Img/Image/Desktop/[WEB] grafika glowna - kokon - blekit - BEZ KWIATA.png");
     background-size: contain;
@@ -60,21 +119,12 @@
     }
     .about-border-desktop {
       display: flex;
-      height: 35%;
-      width: 40%;
-      margin: 15vh 10vw 0 0;
-      border: solid 1px black;
-      justify-content: center;
-      align-items: center;
+      height: 45%;
+      width: 45%;
+      margin: 15% 10% 0 0;
 
       .about-slider-wrapper-desktop {
         display: flex;
-        background-color: rgba(217, 194, 196, 0.6);
-        height: 95%;
-        width: 99%;
-        .slider-wrapper {
-          // color: white;
-        }
       }
     }
   }

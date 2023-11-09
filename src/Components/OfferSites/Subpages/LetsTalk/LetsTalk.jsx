@@ -1,23 +1,25 @@
 import "./letsTalk.scss";
+import { letsTalk } from "../../../../db/contentData.json";
 
 export const LetsTalk = () => {
   return (
     <div className="lets-talk-wrapper">
       <div className="telephone lets-talk-div">
-        <h4>telefon:</h4>
-        <a href="tel:+48 519 785 884">519 785 884</a>
-      </div>
-      <div className="mail lets-talk-div">
-        <h4>mail:</h4>
-        <a href="mailto:agata@psycho-edukatorka.pl">
-          agata@psycho-edukatorka.pl
+        <h4>{letsTalk.telephon}</h4>
+        <a href={`tel:+48${letsTalk.telephoneNumber}`}>
+          {letsTalk.telephoneNumber}
         </a>
       </div>
+      <div className="mail lets-talk-div">
+        <h4>{letsTalk.eMail}</h4>
+        <a href={`mailto:${letsTalk.eMailAdress}`}>{letsTalk.eMailAdress}</a>
+      </div>
       <div className="adress lets-talk-div">
-        <h4>adres gabinetu:</h4>
-        <a href="https://goo.gl/maps/g2QJKueWY3ugzkca7">
-          Psycho Academy <br />
-          Okrąg 21/23/3, 80-871 Gdańśk
+        <h4>{letsTalk.adress}</h4>
+        <a href={letsTalk.adresLink}>
+          {letsTalk.adresOne}
+          <br />
+          {letsTalk.adresTwo}
         </a>
       </div>
     </div>

@@ -13,17 +13,20 @@
     font-size: 12px;
     margin: 0 0;
     transition: 0.8s;
-    margin: auto 0;
+    margin: auto auto;
     &.one {
+      margin: auto 0;
       text-align: left;
+      text-transform: uppercase;
     }
     &.two {
-      width: 70%;
+      width: 90%;
       align-self: center;
       text-align: center;
     }
     &.three {
       text-align: justify;
+      width: 90%;
     }
   }
   span {
@@ -60,5 +63,26 @@
   }
   .active {
     color: $primary-color;
+  }
+}
+@media screen and (min-width: 400px) and (orientation: portrait) {
+  .slider-wrapper {
+    p {
+      font-size: 15px;
+    }
+  }
+}
+@media screen and (orientation: landscape) and (max-width: 840px) {
+  .slider-wrapper {
+    p {
+      font-size: 9px;
+    }
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 841px) and (max-width: 1200px) {
+  .slider-wrapper {
+    p {
+      font-size: 15px;
+    }
   }
 }

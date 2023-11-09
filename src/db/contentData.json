@@ -118,8 +118,50 @@
       "bouble": "Zaopiekujemy się Tobą"
     }
   ],
-  "price": {
-    "consultation": 200,
-    "therapy": 180
+  "letsMeet": [
+    {
+      "id": 1,
+      "paragraf": "Jestem psychologiem konsultującym w nurcie Terapii Skoncentrowanej na Rozwiązaniach. Celem tej terapii jest praca nad   skonstruowaniem najbardziej satysfakcjonującego rozwiązania sytuacji, w której obecnie znajduje się klient."
+    },
+    {
+      "id": 2,
+      "paragraf": "Współpracuję zarówno z dziećmi i młodzieżą, jak i z osobami dorosłymi.Ukończyłam studia podyplomowe z zakresu psychodietetyki, dlatego towarzyszę również osobom borykającym się z zaburzeniami odżywiania bądź chcącym poprawić swoje relacje żywieniowe."
+    },
+    {
+      "id": 3,
+      "paragraf": "Obecnie doskonalę swoje umiejętności psychoterapeutyczne studiując w czteroletniej Szkole Psychoterapii Poznawczo-Behawioralnej Uniwersytetu SWPS pod kierownictwem dr Agnieszki Popiel i dr Ewy Pragłowskiej."
+    },
+    {
+      "id": 4,
+      "paragraf": "Podczas spotkań zapewniam moim klientom wsparcie, towarzyszę im w procesie zmiany, wdrażam elementy psychoedukacji oraz propaguję zdrowe,w kontekście zdrowia psychicznego, podejście do życia."
+    }
+  ],
+  "letsCare": [
+    {
+      "id": 1,
+      "header": "Konsultacja psychologiczna, tj. Pierwsze Spotkanie",
+      "price": 200,
+      "time": "50 min"
+    },
+    {
+      "id": 2,
+      "header": "Terapia indywidualna",
+      "price": 180,
+      "time": "50 min"
+    },
+    {
+      "id": 3,
+      "pararafText": "DO WSPÓŁPRACY ZAPRASZAMDZIECI POWYŻEJ 7 ROKU ŻYCIA ORAZ MŁODZIEŻ.INSTNIEJE MOLIWOŚĆ WSPÓŁPRACY ONLINE"
+    }
+  ],
+  "letsTalk": {
+    "telephon": "telefon:",
+    "telephoneNumber": "519 785 884",
+    "eMail": "mail:",
+    "eMailAdress": "agata@psycho-edukatorka.pl",
+    "adress": "adres gabinetu:",
+    "adresLink": "https://goo.gl/maps/g2QJKueWY3ugzkca7",
+    "adresOne": "Centrum Zdrowia Psychicznego Psycho Academy",
+    "adresTwo": "Okrąg 21/23/3, 80-871 Gdańśk"
   }
 }
